@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-function profile {
+function _lamda_profile {
   local shome="${_lamda_home:-"$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"}"
 }
 
-profile
+_lamda_profile
